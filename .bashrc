@@ -1,4 +1,3 @@
-echo '.bashrc'
 # .bashrc file
 # By Balaji S. Srinivasan (balajis@stanford.edu)
 #
