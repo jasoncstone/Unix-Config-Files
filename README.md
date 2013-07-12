@@ -3,11 +3,11 @@ Unix-Config-Files.git
 These files are based on the configuration files provided to students during
 the Standford Startup Engineering Class (Spring 2013) offered on Coursera.org.
 
-There were originally created for setting up a development environment on an Amason Web Services EC2 instance running Ubuntu 12.04.2.
+They were originally created to configure a development environment on an Amazon Web Services EC2 instance running Ubuntu 12.04.2.
 
 I've added some minor support for OS X.
 
-The remainder of this file contains the original notes:
+The remainder of this README contains the original notes:
 _______________________________________________________
 
 Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to
