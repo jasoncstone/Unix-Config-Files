@@ -42,6 +42,17 @@
 #      ~/.bashrc, if that file exists. This may be inhibited by using the
 #      --norc option. The --rcfile file option will force Bash to read and
 #      execute commands from file instead of ~/.bashrc.
+# Configure PATH
+#  - These are line by line so that you can kill one without affecting the others.
+
+#  - Lowest priority first, highest priority last.
+export PATH=$PATH
+export PATH=$HOME/bin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/opt/local/bin:$PATH
+export PATH=/opt/local/sbin:$PATH
 
 ## -----------------------
 ## -- 1) Import .bashrc --
@@ -53,14 +64,3 @@
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
-
-# Configure PATH
-#  - These are line by line so that you can kill one without affecting the others.
-#  - Lowest priority first, highest priority last.
-export PATH=$PATH
-export PATH=$HOME/bin:$PATH
-export PATH=/usr/bin:$PATH
-export PATH=/usr/local/bin:$PATH
-export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
