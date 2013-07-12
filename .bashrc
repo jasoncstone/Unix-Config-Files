@@ -1,3 +1,4 @@
+echo '.bashrc'
 # .bashrc file
 # By Balaji S. Srinivasan (balajis@stanford.edu)
 #
@@ -225,6 +226,3 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
