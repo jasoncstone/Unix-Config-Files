@@ -53,6 +53,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/opt/local/bin:$PATH
 export PATH=/opt/local/sbin:$PATH
+export PATH=/usr/local/cuda/bin:$PATH
 
 ## -----------------------
 ## -- 1) Import .bashrc --
