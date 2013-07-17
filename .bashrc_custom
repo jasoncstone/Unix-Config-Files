@@ -1,4 +1,4 @@
 # Test for OS X - JCS
 if [ "`uname`" == "Darwin" ]; then
-	echo "Put OS X Stuff here!" > /dev/null	
+	unalias 'du';
 fi
