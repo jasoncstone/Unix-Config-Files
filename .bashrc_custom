@@ -1,4 +1,6 @@
 # Test for OS X - JCS
 if [ "`uname`" == "Darwin" ]; then
 	unalias 'du';
+	LANG=en_US.UTF-8
+	LC_ALL=en_US.UTF-8
 fi
